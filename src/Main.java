@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int currentBalance = 300;
-        int replenishment = 1200;
+        int currentBalance = 100;
+        int replenishment = 1100;
 
-        int bonus = currentBalance / 100 + replenishment / 100;
+        int bonus = replenishment / 100;
         int finalBalance = currentBalance + replenishment;
 
         if (finalBalance > 1000) {
